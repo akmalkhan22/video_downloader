@@ -1,0 +1,125 @@
+/* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0d0d2d;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(135deg, #23283e, #16192a);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #f8f9fa;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        .download-box {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .download-box h3 {
+            color: #333;
+        }
+        .download-box input,
+        .download-box select,
+        .download-box button {
+            margin-top: 15px;
+        }
+        .download-box input,
+        .download-box select {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .download-box button {
+            background-color: #f05662;
+            border: none;
+            padding: 10px 15px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+        .download-box button:hover {
+            background-color: #d04453;
+        }
+        .platform-icons {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .platform-icons img {
+            margin: 0 15px;
+            max-height: 70px;
+            filter: brightness(0) invert(1); /* Makes icons white */
+        }
+        .steps {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .steps h2 {
+            color: #f8f9fa;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .step-item {
+            margin-bottom: 30px;
+        }
+        .step-item img {
+            width: 100px;
+            height: auto;
+            margin: 10px 0;
+            filter: brightness(0) invert(1); /* Makes icons white */
+        }
+        footer {
+            background: #23283e;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            color: #ccc;
+        }
+        .faq {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        .faq .accordion-button {
+            background: #16192a;
+            color: white;
+            border: none;
+        }
+        .faq .accordion-item {
+            border: none;
+            margin-bottom: 10px;
+        }
+        .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #0e0d0d;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+      
+  
