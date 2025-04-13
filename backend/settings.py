@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-e79l$e0ha^(v4ir*$#g6s@mi(v7g6+0t^d9*rt=)b940@zj1mh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://allvediodownloader.com/', '185.199.52.130']
+ALLOWED_HOSTS = ['https://allvediodownloader.com/', 'allvediodownloader.com/','185.199.52.130']
 
 
 # Application definition
